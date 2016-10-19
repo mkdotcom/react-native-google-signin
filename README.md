@@ -5,7 +5,7 @@
 ## Features
 - Support all 3 types of authentication methods (standard, with server-side validation or with offline access (aka server side access))
 - Native signin button
-- Consistent API between Android and iOS
+- Consistent API between Android and iOS and windows
 - Promise-based JS API
 
 
@@ -19,7 +19,7 @@ npm install react-native-google-signin --save
 
 ## Project setup and initialization
 
-See [Android guide](android-guide.md) and [iOS guide](ios-guide.md)
+See [Android guide](android-guide.md) and [iOS guide](ios-guide.md) and [windows guide](windows-guide.md)
 
 
 ## Public API
