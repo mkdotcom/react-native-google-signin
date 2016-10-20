@@ -1,14 +1,10 @@
 ## Windows (UWP) Guide
 
-TODO !!!!!!
-TODO !!!!!!TODO !!!!!!TODO !!!!!!
-TODO !!!!!!TODO !!!!!!TODO !!!!!!
-faire la vérif token côté serveur (et voir du coup si ce module a besoin du webclientid, j'ai l'impression que oui
 
-**WARNING WARNING WARNING:**
-At the time I'm writing this document the #798 feature from react-native-windows is not yet merged nor included in a release. This module won't work without it.
-(You can check it here : https://github.com/ReactWindows/react-native-windows/pull/798 )
 
+**Works with react-native-windows >=0.36 or >=0.37**
+This commit is required :
+https://github.com/ReactWindows/react-native-windows/commit/bbc0728fdbf019d08aec8ae90f1f65e71c4ab374
 
 
 **Warning:** This is a first draft, many things may not be ok ! Don't use it in production.
@@ -23,7 +19,7 @@ At the time I'm writing this document the #798 feature from react-native-windows
 ### 1. Installation
 
 
-#### google api setup
+#### Google API setup
 
 Follow help here:
 https://github.com/googlesamples/oauth-apps-for-windows/blob/master/OAuthUniversalApp/README.md
@@ -37,7 +33,7 @@ Warning: You need an "iOS" oauth client id.
 * Open the project package manifest file.
 * In "Declarations" : add a "Protocol" declaration.
 * Set the "DisplayName" 
-* Set "Name" (usually your package name in reverse order, check on the google api console)
+* Set "Name" (usually your package name in reverse order, check your configuration on the google api console)
 
 
 
