@@ -71,6 +71,12 @@ namespace ReactNative.Modules.RNGoogleSignin
         /// </summary>
         private void go()
         {
+            if (redirectURI==null || redirectURI.Length==0)
+            {
+                output("configure() -> redirect URI is not set!");
+                return;
+            }
+
             // Generates state and PKCE values.
             string state = randomDataBase64url(32);
             string code_verifier = randomDataBase64url(32);

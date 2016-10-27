@@ -2,9 +2,8 @@
 
 
 
-**Works with react-native-windows >=0.36 or >=0.37**
-This commit is required :
-https://github.com/ReactWindows/react-native-windows/commit/bbc0728fdbf019d08aec8ae90f1f65e71c4ab374
+**Works with react-native-windows >=0.36.1**
+
 
 
 **Warning:** This is a first draft, many things may not be ok ! Don't use it in production.
